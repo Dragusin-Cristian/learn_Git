@@ -12,3 +12,16 @@
 * $ git branch -d branch_name
 ### Delete remote:
 * $ git push origin --delete branch_name
+
+## Add a new branch and populate to a remote repo:
+* $ git init
+* $ git remote add origin [REPO_LINK]
+* $ git config --global user.email "you@example.com"
+* $ git push --set-upstream origin main
+* $ git add .
+* $ git commit -m "message"
+* $ git branch new_branch_name
+* $ git checkout new_branch_name
+* $ git add .
+* $ git commit -m "real message"
+* $ git push
