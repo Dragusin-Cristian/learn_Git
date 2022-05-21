@@ -25,3 +25,10 @@
 * $ git add .
 * $ git commit -m "real message"
 * $ git push
+
+## Copy the main branch to new_branch
+* $ git checkout new_branch
+* $ git checkout main . // With period
+* $ git add --all
+* $ git commit -m "Copy from main to new_branch"
+* $ git push -u origin new_branch
