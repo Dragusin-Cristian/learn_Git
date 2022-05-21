@@ -17,7 +17,7 @@
 * $ git init
 * $ git remote add origin [REPO_LINK]
 * $ git config --global user.email "you@example.com"
-* $ git push --set-upstream origin main
+* $ git push --set-upstream origin main // continue even if you get an error
 * $ git add .
 * $ git commit -m "message"
 * $ git branch new_branch_name
