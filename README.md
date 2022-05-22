@@ -32,3 +32,6 @@
 * $ git add --all
 * $ git commit -m "Copy from main to new_branch"
 * $ git push -u origin new_branch
+
+## Reset local branch to original remote branch
+* $ git reset --hard origin/develop
