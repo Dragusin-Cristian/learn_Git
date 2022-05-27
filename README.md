@@ -33,5 +33,11 @@
 * $ git commit -m "Copy from main to new_branch"
 * $ git push -u origin new_branch
 
+## "Duplicate" a branch to another repo:
+* git remote remove origin
+* git remote add origin [NEW REPO LINK]
+* git branch -M main
+* git push -u origin main
+
 ## Reset local branch to original remote branch
 * $ git reset --hard origin/develop
