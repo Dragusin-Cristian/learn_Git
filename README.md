@@ -15,7 +15,7 @@
 
 ## Add a new branch and populate to a remote repo:
 * $ git init
-* $ git remote add origin [REPO_LINK]
+* $ git remote add origin (REPO_LINK)
 * $ git config --global user.email "you@example.com"
 * $ git push --set-upstream origin main // continue even if you get an error
 * $ git add .
@@ -35,9 +35,13 @@
 
 ## "Duplicate" a branch to another repo:
 * git remote remove origin
-* git remote add origin [NEW REPO LINK]
+* git remote add origin (NEW REPO LINK)
 * git branch -M main
 * git push -u origin main
 
 ## Reset local branch to original remote branch
 * $ git reset --hard origin/develop
+
+## Take a remote branch to local repo:
+* $ git checkout -b (local_branch_name) origin/(remote_branch_name) // creates it
+* $ git pull origin (remote_branch_name) // if it didn't pull automatically from the previous step
