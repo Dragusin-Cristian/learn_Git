@@ -44,3 +44,7 @@
 ## Take a remote branch to local repo:
 * $ git checkout -b (local_branch_name) origin/(remote_branch_name) // creates it
 * $ git pull origin (remote_branch_name) // if it didn't pull automatically from the previous step
+
+## Work with submodules:
+* [Add from a current local repo](https://stackoverflow.com/questions/14800669/git-create-repo-as-submodule)  
+* [Docs](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
